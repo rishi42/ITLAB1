@@ -6,7 +6,7 @@ a.bluetxt:link {color:blue;}
 a.act:active{color:green}
 
 p::selection {
-color:red;
+color:YELLOW;
 background:yellow;
 }
 
