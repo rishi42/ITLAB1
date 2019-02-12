@@ -1,0 +1,57 @@
+html>
+<head> <title> web </title>
+<style type="text/css">
+a.redtxt:visited {color:red;}
+a.bluetxt:link {color:blue;}
+a.act:active{color:green}
+
+p::selection {
+color:red;
+background:yellow;
+}
+
+p::first-line {
+color:green;
+font-varient:small-caps;
+}
+p::first-letter {
+color:red;
+font-size:xx-large;
+}
+
+h1::after {
+content:url(nature.jpg);
+}
+
+div {
+width:300px;
+margin:auto;
+border:5px solid black;
+padding:70px;
+background-color:grey;
+text-align:center;
+}
+a {
+padding:5px
+}
+
+body {
+background-color:pink;
+}
+
+</style>
+<body>
+<div>
+<h1> heading </h1>
+<a class=bluetxt href="http://www.edhitch.com/start.jsp" target=_blank> HOME </a>
+<a class=bluetxt href="http://www.edhitch.com/start.jsp" target=_blank> CONTACT </a>
+<a class=largesize href="http://www.edhitch.com/start.jsp" target=_blank> ABOUT US </a>
+<p>  This paragraph is bold
+
+this paragraph is bold
+
+this font is 500 weight  </p>
+</div>
+</body>
+</html>
+
